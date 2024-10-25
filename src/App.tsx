@@ -1,8 +1,8 @@
-import { Header } from "@/containers";
-
+import { Links, Header } from "@/containers";
 function App() {
   return (
-    <div>
+    <div className="w-full relative">
+      <Links />
       <Header />
     </div>
   );

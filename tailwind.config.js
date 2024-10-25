@@ -6,6 +6,15 @@ export default {
       colors: {
         "hover-gray": "#ccc",
       },
+      screens: {
+        600: "600px",
+      },
+      backgroundImage: {
+        "header-bg-image": "url('/src/assets/coffeehouse.jpg')",
+      },
+      grayscale: {
+        50: "50%",
+      },
     },
   },
   plugins: [],
