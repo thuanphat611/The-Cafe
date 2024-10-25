@@ -4,10 +4,14 @@ export default {
   theme: {
     extend: {
       colors: {
+        "main-body": "#f5f5f5",
         "hover-gray": "#ccc",
       },
       screens: {
         600: "600px",
+      },
+      fontFamily: {
+        "section-title": ["Segoe UI", "Arial", "sans-serif"],
       },
       backgroundImage: {
         "header-bg-image": "url('/src/assets/coffeehouse.jpg')",
