@@ -1,5 +1,5 @@
 import { Links, Header } from "@/containers";
-import { BodySection } from "./components";
+import { BodySection, BlockQuote } from "./components";
 
 function App() {
   return (
@@ -21,6 +21,10 @@ function App() {
             made-to-order breakfast and lunch sandwiches, as well as a selection
             of sides and salads and other good stuff.
           </p>
+          <BlockQuote author="Chef, Coffeeist and Owner: Liam Brown">
+            "Use products from nature for what it's worth - but never too early,
+            nor too late." Fresh is the new sweet.
+          </BlockQuote>
         </BodySection>
       </div>
     </div>
