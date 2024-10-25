@@ -1,7 +1,7 @@
 import { Links, Header, Menu } from "@/containers";
 import { BodySection, BlockQuote } from "@/components";
 
-import { CoffeeShop } from "@/assets";
+import { CoffeeShop, CoffeeHouse2 } from "@/assets";
 
 function App() {
   return (
@@ -41,6 +41,11 @@ function App() {
         </BodySection>
         <BodySection id="menu" title="the menu">
           <Menu />
+          <img
+            src={CoffeeHouse2}
+            alt="Coffe shop"
+            className="w-full mt-8 align-middle border-none grayscale-75"
+          />
         </BodySection>
       </div>
     </div>
