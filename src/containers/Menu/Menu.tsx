@@ -73,7 +73,7 @@ export default function Menu() {
             setIsFoodActive(true);
           }}
           className={`grow text-[18px] ${
-            isFoodActive ? "bg-active-gray text-white" : ""
+            isFoodActive ? "bg-active-gray text-white" : "bg-transparent text-black"
           }`}
         >
           Eat
@@ -84,7 +84,7 @@ export default function Menu() {
             setIsFoodActive(false);
           }}
           className={`grow text-[18px] ${
-            !isFoodActive ? "bg-active-gray text-white" : ""
+            !isFoodActive ? "bg-active-gray text-white" : "bg-transparent text-black"
           }`}
         >
           Drink

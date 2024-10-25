@@ -1,4 +1,4 @@
-import { Links, Header, Menu } from "@/containers";
+import { Links, Header, Menu, Footer } from "@/containers";
 import { BodySection, BlockQuote } from "@/components";
 
 import { CoffeeShop, CoffeeHouse2, Map } from "@/assets";
@@ -95,10 +95,13 @@ function App() {
               className="px-2 py-4 border-solid border text-[18px] border-hover-gray placeholder:text-description-gray placeholder:text-[18px]"
               required
             />
-            <button className="self-start text-[18px]">SEND MESSAGE</button>
+            <button className="self-start text-[18px] px-4 py-2 bg-black text-white text-center border-none hover:bg-hover-gray hover:cursor-pointer">
+              SEND MESSAGE
+            </button>
           </form>
         </BodySection>
       </div>
+      <Footer />
     </div>
   );
 }

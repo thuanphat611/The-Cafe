@@ -8,6 +8,7 @@ export default {
         "hover-gray": "#ccc",
         "active-gray": "#616161",
         "description-gray": "#757575",
+        "footer-gray": "#f1f1f1",
       },
       screens: {
         600: "600px",
