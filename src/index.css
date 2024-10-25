@@ -6,6 +6,7 @@
 
 @layer base {
   html {
+    @apply text-black;
     font-family: "Inconsolata", monospace;
   }
 }

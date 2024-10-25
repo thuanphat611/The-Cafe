@@ -1,4 +1,10 @@
+import { Header } from "@/containers";
+
 function App() {
-  return <h1 className="text-3xl font-bold underline">the Cafe</h1>;
+  return (
+    <div>
+      <Header />
+    </div>
+  );
 }
 export default App;
