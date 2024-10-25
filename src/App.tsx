@@ -1,4 +1,4 @@
-import { Links, Header } from "@/containers";
+import { Links, Header, Menu } from "@/containers";
 import { BodySection, BlockQuote } from "@/components";
 
 import { CoffeeShop } from "@/assets";
@@ -29,6 +29,7 @@ function App() {
           </BlockQuote>
           <img
             src={CoffeeShop}
+            alt="Coffe shop"
             className="w-full mt-4 align-middle border-none grayscale-75"
           />
           <p>
@@ -37,6 +38,9 @@ function App() {
           <p>
             <strong>Address:</strong> 15 Adr street, 5015, NY
           </p>
+        </BodySection>
+        <BodySection id="menu" title="the menu">
+          <Menu />
         </BodySection>
       </div>
     </div>

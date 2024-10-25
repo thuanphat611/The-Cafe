@@ -8,8 +8,19 @@
   html {
     @apply text-black text-[15px] leading-normal;
     font-family: "Inconsolata", monospace;
+    scroll-behavior: smooth;
   }
+
+  h5 {
+    @apply my-[10px] text-[18px];
+  }
+
   p {
     @apply block text-[18px] my-[18px];
+  }
+
+  .menu-shadow {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
+      0 2px 10px 0 rgba(0, 0, 0, 0.12);
   }
 }

@@ -6,6 +6,8 @@ export default {
       colors: {
         "main-body": "#f5f5f5",
         "hover-gray": "#ccc",
+        "active-gray": "#616161",
+        "description-gray": "#757575",
       },
       screens: {
         600: "600px",
