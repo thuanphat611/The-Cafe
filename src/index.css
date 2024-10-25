@@ -9,4 +9,7 @@
     @apply text-black text-[15px] leading-normal;
     font-family: "Inconsolata", monospace;
   }
+  p {
+    @apply block text-[18px] my-[18px];
+  }
 }
