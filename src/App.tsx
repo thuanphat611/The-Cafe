@@ -1,5 +1,7 @@
 import { Links, Header } from "@/containers";
-import { BodySection, BlockQuote } from "./components";
+import { BodySection, BlockQuote } from "@/components";
+
+import { CoffeeShop } from "@/assets";
 
 function App() {
   return (
@@ -8,7 +10,7 @@ function App() {
       <Header />
 
       <div className="w-full bg-main-body">
-        <BodySection title="about the cafe">
+        <BodySection id="about" title="about the cafe">
           <p>
             The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit
             amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -25,6 +27,16 @@ function App() {
             "Use products from nature for what it's worth - but never too early,
             nor too late." Fresh is the new sweet.
           </BlockQuote>
+          <img
+            src={CoffeeShop}
+            className="w-full mt-4 align-middle border-none grayscale-75"
+          />
+          <p>
+            <strong>Opening hours:</strong> everyday from 6am to 5pm.
+          </p>
+          <p>
+            <strong>Address:</strong> 15 Adr street, 5015, NY
+          </p>
         </BodySection>
       </div>
     </div>

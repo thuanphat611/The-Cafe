@@ -14,10 +14,11 @@ export default {
         "section-title": ["Segoe UI", "Arial", "sans-serif"],
       },
       backgroundImage: {
-        "header-bg-image": "url('/src/assets/coffeehouse.jpg')",
+        "header-bg-image": "url('/src/assets/Coffeehouse.jpg')",
       },
       grayscale: {
         50: "50%",
+        75: "75%",
       },
     },
   },
