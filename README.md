@@ -1,50 +1,46 @@
-# React + TypeScript + Vite
+# The Cafe - React & Tailwind CSS Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **The Cafe**, a web application built using React and styled with Tailwind CSS. This project serves as a practice platform for creating responsive and modern user interfaces based on a W3Schools web template.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+You can view the live application [here](https://thecafe2510.netlify.app/).
 
-## Expanding the ESLint configuration
+![Screenshot](/docs/screenshot.png)
+## Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+To run this project locally, follow these steps:
 
-- Configure the top-level `parserOptions` property like this:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/thuanphat611/The-Cafe.git
+   ```
+   
+2. Navigate to the project directory:
+   ```bash
+   cd the-cafe
+   ```
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+3. Install the dependencies using Yarn:
+   ```bash
+   yarn install
+   ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+4. Start the development server:
+   ```bash
+   yarn start
+   ```
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+5. Open your browser and visit `http://localhost:5073`.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Technologies Used
+
+- **React**: A JavaScript library for building user interfaces
+- **Vite**: A fast build tool and development server for modern web projects
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development
+
+<p align="center">
+  <img src="/docs/react.png" alt="React Logo" width="64" height="64" style="margin-right: 30px;" />
+  <img src="/docs/vite.png" alt="Vite Logo" width="64" height="64" style="margin-right: 30px;" />
+  <img src="/docs/tailwind.png" alt="Tailwind Logo" width="64" height="64" />
+</p>
