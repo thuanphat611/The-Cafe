@@ -12,6 +12,16 @@ export default function Footer() {
         </a>
       </p>
       <p className="text-center my-2">
+        Favicon source:
+        <a
+          href="https://www.flaticon.com/free-icon/coffee_6502454?term=cafe&page=1&position=7&origin=tag&related_id=6502454"
+          target="_blank"
+          className="ml-2 hover:text-teal-600"
+        >
+          flaticon.com
+        </a>
+      </p>
+      <p className="text-center my-2">
         Github:
         <a
           href="https://github.com/thuanphat611"

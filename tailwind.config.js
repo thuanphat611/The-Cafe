@@ -23,6 +23,18 @@ export default {
         50: "50%",
         75: "75%",
       },
+      keyframes: {
+        slideIn: {
+          "0%": { transform: "translateX(100%)", opacity: "0" },
+          "100%": { transform: "translateX(0)", opacity: "1" },
+        },
+        faddeOut: {
+          "100%": { opacity: "0" },
+        },
+      },
+      animation: {
+        toast: "slideIn 0.5s ease-in, faddeOut 0.3s ease-out 5s",
+      },
     },
   },
   plugins: [],
